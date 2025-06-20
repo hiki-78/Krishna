@@ -1,0 +1,9 @@
+name: almond-env
+channels:
+  - conda-forge
+dependencies:
+  - openjdk=11
+  - python=3.10
+  - pip
+  - pip:
+      - jupyterlab
